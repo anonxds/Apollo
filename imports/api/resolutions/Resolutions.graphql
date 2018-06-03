@@ -1,0 +1,14 @@
+#[To do]
+#Nombre
+#createdDate
+
+type Resolution{
+  _id:String!
+  name:String!
+}
+
+type Mutation {
+    createResolution(name: String!): Resolution
+}
+
+# ¿que es una mutacion?
